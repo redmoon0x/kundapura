@@ -97,6 +97,7 @@ margin: 0 5px;
   }
   .nav-bar.active {
     height: auto;
+    z-index: 6; 
   }
   .nav-bar ul{
     display: block;
@@ -108,7 +109,7 @@ margin: 0 5px;
   }
   .nav-bar ul li a{
     margin-bottom: 12px;
-    color: rgb(255, 250, 250) ;
+    z-index: -1; 
     
   }
   .nav-bar.active ul {
@@ -150,7 +151,7 @@ margin: 0 5px;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0,0.5);
-  z-index: -1; /* Move the hero overlay behind the content */
+  z-index: 3; /* Move the hero overlay behind the content */
 }
 .hero-content {
   position: absolute;
