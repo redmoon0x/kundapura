@@ -3,7 +3,7 @@
 *::before,
 *::after{
   margin: 0;
-  padding: 0;
+  padding:  0;
   list-style: none;
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif,'Noto Serif Kannada';
@@ -59,6 +59,7 @@ margin: 0 5px;
 .nav-bar ul li a.active{
   color: #dbdcda;
   background:#879b27;
+  
 
 
 }
@@ -94,14 +95,14 @@ margin: 0 5px;
     top: 80px;
     left: 0;
     right: 0;
-    width: 100vh;
+    width: 100%;
     background:#282d16;
     transition: 0.2s;
     overflow: hidden;
   }
   .nav-bar.active {
     height: auto;
-    z-index: 6; 
+    z-index: 8; 
   }
   .nav-bar ul{
     display: block;
@@ -119,6 +120,7 @@ margin: 0 5px;
   .nav-bar.active ul {
     opacity: 1;
     transition: 0.5s;
+    
   }
   .nav-bar ul li a:hover {
     color: aqua;
@@ -204,11 +206,12 @@ margin: 0 5px;
 }
 
 .padsale {
-  color: #858d8b;
-  font-size: 24px;
+  color: #ffffff;
+  font-size: 30px;
   margin-bottom: 10px;
   text-align: center;
   background: #024c122c;
+  text-shadow: #000;
  
 }
 
@@ -244,6 +247,7 @@ margin: 0 5px;
   border-radius: 5px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 2px 8px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+  z-index: 18;
 }
 .card:last-child {
   margin-right: 0;
@@ -278,21 +282,20 @@ margin: 0 5px;
   background-color: #282d167a;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  color: #fff;
+  color: #2c2525;
   align-items: center;
+  
 }
 
 .card-content h3 {
   margin-top: 0;
   text-align: center;
-  color: #ff3d00;
+  color: #98ef02;
  font-size:25px;
  
 }
 
-.card-content p {
-  margin-bottom: 0;
-}
+
 .read-link {
   display: block;
   padding: 8px 0;
@@ -320,6 +323,7 @@ footer {
   padding: 70px 0;
   line-height: 1.5;
   margin-top: auto; 
+  
 }
 .row{
   display: flex;
@@ -360,11 +364,13 @@ footer {
   color: #fff;
   display: block;
   transition: all .3s ease;
+  
 
 }
 .footer-col ul li a:hover{
   color: #d2e500;
   padding-left: 6px;
+  
 
 }
 .footer-col .social-link a{
@@ -393,9 +399,16 @@ footer {
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
+    
   }
-  .hero-overlay:hover{
-    color: #0ad2b1;
-    background-color: #d2e500;
+  .footer-col ul li a:hover {
+    color: #d2e500;
+    padding-left: 6px;
   }
+
+  .footer-col .social-link a:hover {
+    color: #d2e500;
+    background: #ff3d00;
+  }
+}
 }
