@@ -157,7 +157,7 @@ margin: 0 5px;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0,0.9);
-  z-index: 3; /* Move the hero overlay behind the content */
+  z-index: -1; /* Move the hero overlay behind the content */
 }
 .hero-content {
   position: absolute;
@@ -167,7 +167,7 @@ margin: 0 5px;
   text-align: center;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  z-index: 9;
 }
 
 .hero-content h1 {
@@ -193,10 +193,12 @@ margin: 0 5px;
   border-radius: 30px;
   transition: background-color 0.3s ease;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
 }
 
 .hero-content .btn:hover {
   background-color: #07e8d5;
+  
 }
 .information {
   background-color: #282d16;
@@ -411,4 +413,4 @@ footer {
     background: #ff3d00;
   }
 }
-}
+
