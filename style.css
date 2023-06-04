@@ -16,6 +16,7 @@
   min-height: 100%;
   
  }
+ 
  header{
   width: 100%;
   height: 80px;
@@ -326,6 +327,7 @@ footer {
   line-height: 1.5;
   margin-top: auto; 
   
+  
 }
 .row{
   display: flex;
@@ -375,23 +377,7 @@ footer {
   
 
 }
-.footer-col .social-link a{
-  display: block;
-  height: 40px;
-  width: 40px;
-  background: rgba(255,255,255,.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height:40px ;
-  border-radius: 50%;
-  color: #fff;
-  transition: all .5s ease;
-  padding: 6%;
-  justify-content: flex-start;
-  margin-bottom:10px ;
-  
 
-}
 .footer-col .social-link a:hover{
   color: #d2e500;
   background: #ff3d00;
